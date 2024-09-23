@@ -7,14 +7,7 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         while(true){
-            System.out.println(
-                "1. 비지니스 연락처 추가 \n" +
-                "2. 개인 연락처 추가 \n" +
-                "3. 연락처 출력 \n" +
-                "4. 연락처 검색 \n" +
-                "5. 종료 \n" +
-                "메뉴를 선택해 주세요"
-            );
+            System.out.printf("1. 비지니스 연락처 추가 \n2. 개인 연락처 추가 \n3. 연락처 출력 \n4. 연락처 검색 \n5. 종료 \n메뉴를 선택해 주세요%n");
             switch(sc.nextLine()) {
                 case "1":
                     System.out.println("이름 : ");
