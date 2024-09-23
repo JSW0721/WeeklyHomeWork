@@ -36,10 +36,12 @@ public class Main {
                     break;
                 case "3":
                     ad.display();
+                    break;
                 case "4":
                     System.out.println("검색할 이름 : ");
                     name = sc.nextLine();
                     ad.lookup(name);
+                    break;
                 case "5":
                     sc.close();
                     return;
